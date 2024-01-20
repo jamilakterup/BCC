@@ -9,13 +9,6 @@
     color: var(--text-color);
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 .bg-img {
     background: url(asstes/bg.png) no-repeat center/cover;
     min-height: 100vh;
@@ -56,9 +49,143 @@
     border: none;
     color: white;
     font-weight: 500;
+    transition: all .2s ease-in-out;
+}
+
+.primary-btn:hover {
+    background: #c22525;
 }
 
 .main-text {
     font-size: 25px;
     width: 180px;
+}
+
+.platform-card {
+    background: #FFF;
+    box-shadow: 0px 4px 31px -10px rgba(0, 0, 0, 0.16);
+    min-height: 100vh;
+}
+
+.platform-bg {
+    border: 1px solid rgba(211, 213, 214, 0.65);
+    background: #FFF4F4;
+    height: 140px;
+}
+
+.platform-title {
+    color: #454444;
+    font-size: 28px;
+}
+
+.platform-dark-text {
+    color: #434242;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.platform-danger-text {
+    color: #E93535;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+td {
+    font-size: 18px;
+}
+
+.record-icon {
+    padding: 5px;
+    background-color: #26f1e1;
+    transition: all .2s ease-in-out;
+}
+
+.record-icon:hover {
+    padding: 5px;
+    background-color: #09dbca;
+    border-radius: 30px;
+}
+
+.edit-icon {
+    padding: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.edit-icon:hover {
+    background: #e2c0c0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-section {
+    border: 1px solid rgba(211, 213, 214, 0.65);
+    background: #b7e3f3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-radius: 8px;
+}
+
+
+.accordian-card {
+    background: #FFF;
+    box-shadow: 0px 4px 31px -10px rgba(0, 0, 0, 0.16);
+    min-height: 100vh;
+}
+
+.accordian-bg {
+    border: 1px solid rgba(211, 213, 214, 0.65);
+    background: #B4F9E4;
+    height: 65px;
+}
+
+.accordian-title {
+    color: #393131;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.accordian-header {
+    color: #393131;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sound {
+    padding: 4px;
+}
+
+.sound:hover {
+    background: #85cff1;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+
+/* accordian btn */
+.accordian-btn.active {
+    border-radius: 5px;
+    border: 1px solid #959292;
+    background: #B4F9E4;
+}
+
+.accordian-btn {
+    border-radius: 5px;
+    border: 1px solid #959292;
+    transition: all .2s ease-in-out;
+}
+
+.accordian-btn:hover {
+    border-radius: 5px;
+    border: 1px solid #959292;
+    background: #9ff1d9;
+}
+
+
+
+/* responsive design:: */
+@media only screen and (max-width: 576px) {
+    .main-text {
+        font-size: 25px;
+        width: 100%;
+    }
 }

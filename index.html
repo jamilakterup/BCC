@@ -31,9 +31,9 @@
                             <option value="2">Two</option>
                             <option value="3">Three</option>
                         </select>
-                        <div class="d-flex gap-5">
+                        <div class="d-block d-md-flex gap-5">
                             <div class="main-text">
-                                <i class="fa-solid fa-microphone bg-info px-3 py-2  rounded-circle"></i>
+                                <img class="bg-info p-2 rounded-circle" src="asstes/mic.svg" alt="">
                                 <p>বাংলা আঞ্চলিক ভাষার ডেটা সংগ্রহ চলছে \ এই পর্যন্ত ৩৪ টি জোনে ১৪২৩
                                     মিনিট সংগ্রহ হয়েছে \
                                     আপনিও যোগ দিন </p>
@@ -105,19 +105,19 @@
                             <tbody>
                                 <tr class="table-primary">
                                     <th>1</th>
-                                    <td><i class="fa-solid fa-user-tie"></i></td>
+                                    <td><img src="asstes/user.svg" alt=""></td>
                                     <td class="w-50">Bird</td>
                                     <td>@twitter</td>
                                 </tr>
                                 <tr class="table-secondary">
                                     <th scope="row">2</th>
-                                    <td><i class="fa-solid fa-user-tie"></i></td>
+                                    <td><img src="asstes/user.svg" alt=""></td>
                                     <td>Bird</td>
                                     <td>@twitter</td>
                                 </tr>
                                 <tr class="table-success">
                                     <th scope="row">3</th>
-                                    <td><i class="fa-solid fa-user-tie"></i></td>
+                                    <td><img src="asstes/user.svg" alt=""></td>
                                     <td>Bird</td>
                                     <td>@twitter</td>
                                 </tr>
@@ -126,29 +126,29 @@
 
                         <!-- signup form -->
                         <div>
-                            <h4 class="title-color text-center">Sign Up</h4>
+                            <h4 class="title-color text-center mb-3">Sign Up</h4>
                             <form>
-                                <div class="row g-2">
+                                <div class="row g-1 g-md-2">
                                     <div class="col-12">
                                         <input type="text" class="form-control" id="name" placeholder="Full Name">
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-md-6 col-12">
                                         <input type="text" class="form-control" id="name" placeholder="E-mail Address">
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-md-6 col-12">
                                         <input type="text" class="form-control" id="name" placeholder="Phone Number">
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-md-6 col-12">
                                         <input type="text" class="form-control" id="name" placeholder="Password">
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-md-6 col-12">
                                         <input type="text" class="form-control" id="name"
                                             placeholder="Confirm Password">
                                     </div>
                                 </div>
                                 <h6 class="mt-2 mb-3">Address:</h6>
                                 <div class="row g-2">
-                                    <div class="col-6">
+                                    <div class="col-md-6 col-12">
                                         <select class="form-select" aria-label="Default select example">
                                             <option selected>--Division--</option>
                                             <option value="1">One</option>
@@ -156,7 +156,7 @@
                                             <option value="3">Three</option>
                                         </select>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-md-6 col-12">
                                         <select class="form-select" aria-label="Default select example">
                                             <option selected>--Distirct--</option>
                                             <option value="1">One</option>
@@ -164,7 +164,7 @@
                                             <option value="3">Three</option>
                                         </select>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-md-6 col-12">
                                         <select class="form-select" aria-label="Default select example">
                                             <option selected>--UPAZILA/THANA--</option>
                                             <option value="1">One</option>
@@ -172,7 +172,7 @@
                                             <option value="3">Three</option>
                                         </select>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-md-6 col-12">
                                         <select class="form-select" aria-label="Default select example">
                                             <option selected>--Dialect--</option>
                                             <option value="1">One</option>
@@ -181,8 +181,9 @@
                                         </select>
                                     </div>
                                 </div>
-                                <p class="my-3"><small>Already have an account? Login</small></p>
-                                <button type="submit" class="primary-btn w-100 mt-2 mb-4">Submit</button>
+                                <p class="my-3"><small>Already have an account? <span
+                                            class="text-danger fw-medium">Login</span></small></p>
+                                <button type="submit" class="primary-btn w-100 mb-4">Submit</button>
                             </form>
                         </div>
                     </div>
@@ -197,8 +198,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/fa7aad7aa2.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
