@@ -1,0 +1,64 @@
+/* re-useable css */
+:root {
+    --text-color: #4F4E4E;
+    --bg-color: #FCFCFC;
+    --border-color: #E1DFDF;
+}
+
+.title-color {
+    color: var(--text-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bg-img {
+    background: url(asstes/bg.png) no-repeat center/cover;
+    min-height: 100vh;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
+.left-div {
+    border-radius: 8px;
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+}
+
+.right-div {
+    border-radius: 8px;
+    background: var(--bg-color);
+    box-shadow: 0px 4px 45px -15px rgba(0, 0, 0, 0.25);
+}
+
+.header-text {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.blank-color {
+    height: 28px;
+    background: #0fb4dd;
+}
+
+.primary-btn {
+    border-radius: 5px;
+    background: #E93535;
+    padding: 6px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
+.main-text {
+    font-size: 25px;
+    width: 180px;
+}
